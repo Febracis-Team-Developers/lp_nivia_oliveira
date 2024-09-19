@@ -4,7 +4,8 @@ const Section5 = () => {
     return ( 
         <div className="backgroundS5" style={{
             backgroundImage: `url('./05/background.svg')`,
-            backgroundColor: 'gray', // Fallback color to see if the style is applied
+            backgroundColor: '#D9D9D9', // Fallback color to see if the style is applied
+            backgroundSize: 'cover',
         }}>
             <div className="flex flex-col items-center py-12">
                 <h1 className="h3">Estás pronta para transformar a tua vida?</h1>

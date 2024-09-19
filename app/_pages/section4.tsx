@@ -4,11 +4,17 @@ const Section4 = () => {
     return ( 
         <div style={{
             backgroundImage: "url('/04/BACKGROUND 1.svg')", // Correct path to the image
-            height: '1100px',
+            height: '100%',
             backgroundRepeat: 'no-repeat', 
-            backgroundPosition: 'center'
+            backgroundPosition: 'center top',
+            backgroundSize: 'cover'
         }}>
-            <div className='flex flex-col pl-52'>
+            <div className='flex flex-col pl-52' 
+                style={{
+                paddingTop: '105px',
+                paddingBottom: '105px',
+            }}
+            >
                 <h1 className='h2 py-12'>Nívia Oliveira</h1>
                 <p className='p3'>
                     Mulher, empresária, mentora, master coach.

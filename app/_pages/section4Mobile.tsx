@@ -4,11 +4,15 @@ const Section4Mobile = () => {
     return ( 
         <div style={{
             backgroundImage: "url('/04/BACKGROUND 1.svg')", // Correct path to the image
-            height: 'flex',
+            height: '100%',
             backgroundRepeat: 'no-repeat', 
             backgroundPosition: 'left'
         }}>
-            <div className='flex flex-col pl-12'>
+            <div className='flex flex-col pl-12'
+            style={{
+                backgroundColor:'rgba(0,0,0,.6)',
+            }}
+            >
                 <h1 className='h2S4 py-12'>Nívia Oliveira</h1>
                 <p className='p3S4 pb-12'>
                     Mulher, empresária, mentora, master coach.
