@@ -3,7 +3,7 @@ import './section1.css';
 const Section4Mobile = () => {
     return ( 
         <div style={{
-            backgroundImage: "url('/04/BACKGROUND 1.svg')", // Correct path to the image
+            backgroundImage: "url('./04/BACKGROUND 1.svg')", // Correct path to the image
             height: '100%',
             backgroundRepeat: 'no-repeat', 
             backgroundPosition: 'left'

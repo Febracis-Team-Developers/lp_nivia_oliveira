@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 const Section1 = () => {
     return ( 
         <div className="gradient-background flex pl-52" style={{
-            backgroundImage: "url('/01/bg-nivia-full.png')", 
+            backgroundImage: "url('./01/bg-nivia-full.png')", 
             backgroundRepeat: 'no-repeat', 
             backgroundPosition: 'center top',
             backgroundSize: 'cover',
