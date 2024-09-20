@@ -2,10 +2,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from "@/components/ui/carousel";
 
 const videoLinks = [
-    "https://youtu.be/ybovbqhaILs",
-    "https://youtu.be/GfoAc4ZR0To",
-    "https://youtu.be/UUv9BprLNyc",
-    "https://youtu.be/cXML84x9AlM"
+    "./videos/video1nivia.mp4",
+    "./videos/video2nivia.mp4",
+    "./videos/video3nivia.mp4",
+    "./videos/video4nivia.mp4"
 ];
 const Section3Mobile = () => {
     return ( 

@@ -10,7 +10,7 @@ const Section3 = () => {
                     <iframe 
                         width="216" 
                         height="385"  
-                        src="https://www.youtube.com/embed/ybovbqhaILs" 
+                        src="./videos/video1nivia.mp4" 
                         title="YouTube video player" 
                         frameBorder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -22,7 +22,7 @@ const Section3 = () => {
                     <iframe 
                         width="216" 
                         height="385"  
-                        src="https://www.youtube.com/embed/GfoAc4ZR0To" 
+                        src="./videos/video2nivia.mp4" 
                         title="YouTube video player" 
                         frameBorder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -34,7 +34,7 @@ const Section3 = () => {
                     <iframe 
                         width="216" 
                         height="385"  
-                        src="https://www.youtube.com/embed/UUv9BprLNyc" 
+                        src="./videos/video3nivia.mp4" 
                         title="YouTube video player" 
                         frameBorder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -46,7 +46,7 @@ const Section3 = () => {
                     <iframe 
                         width="216" 
                         height="385"  
-                        src="https://www.youtube.com/embed/cXML84x9AlM" 
+                        src="./videos/video4nivia.mp4" 
                         title="YouTube video player" 
                         frameBorder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
