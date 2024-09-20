@@ -26,7 +26,7 @@ const Section3Mobile = () => {
                                                 width="100%" 
                                                 height="315" 
                                                 src={link.replace("youtu.be", "youtube.com/embed")} 
-                                                title="YouTube video player" 
+                                                title="Video player" 
                                                 frameBorder="0" 
                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                                 allowFullScreen>
