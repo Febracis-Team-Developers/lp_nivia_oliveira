@@ -13,7 +13,7 @@ const Section3Mobile = () => {
             <div className="flex flex-col items-center py-12">
                 <h1 className="h1">Histórias de transformação</h1>
                 
-                <div className="py-12">
+                <div className="py-12 w-full max-w-sm px-6">
                 <Carousel className="w-full max-w-xs">
                 <CarouselContent>
                     {videoLinks.map((link, index) => (
