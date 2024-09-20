@@ -1,6 +1,5 @@
 import './sectionMobile.css';
 import { Button } from "@/components/ui/button"
-import Image from 'next/image';
 import React from 'react';
 
 const Section1Mobile = () => {
@@ -29,7 +28,7 @@ const Section1Mobile = () => {
                         <br/>finanças, carreira, negócios, sexualidade
                         <br/>e a tua conexão com Deus. 
                     </p>
-                    <Image src='/01/bg-nivia.png' alt='Image 01' width={390} height={521} />
+                    <img src='./01/bg-nivia.png' alt='Image 01' width={390} height={521} />
                     <Button variant={'ProjectButton'} size={'ProjectButtonMobile'}>Garantir a minha vaga</Button>
                 </div>
 
