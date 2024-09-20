@@ -12,7 +12,9 @@ const Section3Mobile = () => {
         <div className="flex justify-center gradient-backgroundS3">
             <div className="flex flex-col items-center py-12">
                 <h1 className="h1">Histórias de transformação</h1>
-                
+                <div>
+                    <p className="p1">Arraste para o lado para ver mais histórias</p>
+                </div>
                 <div className="py-12 w-full max-w-sm px-6">
                 <Carousel className="w-full max-w-xs">
                 <CarouselContent>
