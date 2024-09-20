@@ -4,11 +4,12 @@ const Section2 = () => {
     return ( 
         <div className='backgroundS2' style={{
             backgroundImage: `url('./02/background.svg')`,
-            backgroundColor: 'gray', // Fallback color to see if the style is applied
+            backgroundColor: '#D9D9D9', // Fallback color to see if the style is applied
+            backgroundSize: 'cover',
         }}>
             <div className="h1 flex flex-col items-center py-32 z-10">
-                <h1 className='z-10'>Como seria a tua vida se...</h1>
-                <div className='flex flex-col items-center py-12 z-10'>
+                <h1 className='z-10 text-4xl '>Como seria a tua vida se...</h1>
+                <div className='flex flex-col items-center py-12 z-10 font-medium'>
                     <p className="p2 text-2xl">Tivesses tempo para cuidar de ti e</p>
                     <p className="p2 text-2xl">praticar atividade física regularmente?</p>
                     

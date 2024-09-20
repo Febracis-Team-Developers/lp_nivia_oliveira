@@ -1,15 +1,15 @@
 import './section1.css';
 import { Button } from "@/components/ui/button"
-import { Link } from 'lucide-react';
-import Image from 'next/image';
-import React from 'react';
+
 
 const Section1 = () => {
     return ( 
         <div className="gradient-background flex pl-52" style={{
             backgroundImage: "url('/01/bg-nivia-full.png')", 
             backgroundRepeat: 'no-repeat', 
-            backgroundPosition: 'center'
+            backgroundPosition: 'center top',
+            backgroundSize: 'cover',
+            height: '100vh',
         }}>
             <div>
                 <div className='py-12'>

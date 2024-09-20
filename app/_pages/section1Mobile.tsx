@@ -7,7 +7,7 @@ const Section1Mobile = () => {
     return ( 
         <div className="gradient-background flex justify-center">
 
-           <div className='py-12 pl-12'>
+           <div className='py-12 px-8'>
                 <p className='p'>Mulheres de Alta Performance</p>
 
                 <div className='py-6'>
@@ -20,7 +20,7 @@ const Section1Mobile = () => {
                 </div>
 
                 <div>
-                    <p className='p1'>
+                    <p className='p1 py-6'>
                         Nesta mentoria exclusiva para mulheres,
                         <br/>vais trabalhar profundamente a tua
                         <br/>conexão com o feminino, integrando

@@ -4,4 +4,4 @@ const videoLinks = [
     "https://youtu.be/UUv9BprLNyc",
     "https://youtu.be/cXML84x9AlM",
 ];
-export videoLinks;
+export default videoLinks;

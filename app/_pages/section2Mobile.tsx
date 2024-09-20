@@ -5,10 +5,11 @@ const Section2Mobile = () => {
         <div className='flex justify-center text-center' 
         style={{
             backgroundImage: `url('./02/background.svg')`,
-            backgroundColor: 'gray', // Fallback color to see if the style is applied
+            backgroundColor: '#D9D9D9', // Fallback color to see if the style is applied
+            backgroundSize: 'cover',
         }}>
-            <div className='py-12'>
-                <h1 className='text-center'>Como seria sua vida se...</h1>
+            <div className='py-12 text-secondary-foreground'>
+                <h1 className='text-center text-2xl'>Como seria sua vida se...</h1>
                 <div className='py-12'>
                     <p className="">Tivesses tempo para cuidar de ti e</p>
                     <p className="">praticar atividade física regularmente?</p>
