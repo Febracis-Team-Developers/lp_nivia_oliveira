@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from "@/components/ui/carousel";
+import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 
 const videoLinks = [
     "./videos/video1nivia.mp4",
@@ -38,8 +38,6 @@ const Section3Mobile = () => {
                         </CarouselItem>
                     ))}
                 </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
                 </Carousel>
                 </div>
             </div>
