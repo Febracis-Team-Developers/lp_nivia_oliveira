@@ -1,5 +1,6 @@
 "use client"
 
+import { useEffect, useState } from 'react';
 import Section1 from "./_pages/section1";
 import Section2 from "./_pages/section2";
 import Section3 from "./_pages/section3";
@@ -14,27 +15,37 @@ import Section5Mobile from "./_pages/section5Mobile";
 
 export default function Home() {
   const size = useWindowSize();
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    return null; // ou um spinner de carregamento
+  }
+
   const isMobile = size.width <= 768;
-  
+
   return (
     <>
       {isMobile ? (
         <>
-        <Section1Mobile />
-        <Section2Mobile />
-        <Section3Mobile />
-        <Section4Mobile />
-        <Section5Mobile />
+          <Section1Mobile />
+          <Section2Mobile />
+          <Section3Mobile />
+          <Section4Mobile />
+          <Section5Mobile />
         </>
-        ) : (
-          <>
+      ) : (
+        <>
           <Section1 />
           <Section2 />
           <Section3 />
           <Section4 />
           <Section5 />
-          </>
-          )}
+        </>
+      )}
     </>
   );
 }

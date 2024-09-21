@@ -1,0 +1,25 @@
+.hidden {
+    display: none;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    .desktop {
+      display: none;
+    }
+    .mobile {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .desktop {
+      display: block;
+    }
+    .mobile {
+      display: none;
+    }
+  }
