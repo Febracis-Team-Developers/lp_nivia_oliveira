@@ -9,7 +9,9 @@ const Section1 = () => {
             backgroundRepeat: 'no-repeat', 
             backgroundPosition: 'center top',
             backgroundSize: 'cover',
-            height: '100vh',
+            height: '100%',
+            paddingTop: '50px',
+            paddingBottom: '100px',
         }}>
             <div>
                 <div className='py-12'>
