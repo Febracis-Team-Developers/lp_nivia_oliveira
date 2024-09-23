@@ -15,7 +15,7 @@ const Section3Mobile = () => {
                 <div>
                     <p className="p1">Arraste para o lado para ver mais histórias</p>
                 </div>
-                <div className="py-12 w-full max-w-sm px-6">
+                <div className="py-12 w-full max-w-sm">
                 <Carousel className="w-full max-w-xs">
                 <CarouselContent>
                     {videoLinks.map((link, index) => (
@@ -24,15 +24,14 @@ const Section3Mobile = () => {
                                 <Card>
                                     <CardContent className="flex aspect-square items-center justify-center p-6">
                                         <span className="text-4xl font-semibold">
-                                            <iframe 
+                                            <video 
                                                 width="100%" 
                                                 height="315" 
-                                                src={link.replace("youtu.be", "youtube.com/embed")} 
+                                                src={link} 
                                                 title="Video player" 
-                                                frameBorder="0" 
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                                allowFullScreen>
-                                            </iframe>
+                                                controls
+                                            >
+                                            </video>
                                         </span>
                                     </CardContent>
                                 </Card>

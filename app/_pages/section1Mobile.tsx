@@ -4,7 +4,9 @@ import React from 'react';
 
 const Section1Mobile = () => {
     return ( 
-        <div className="gradient-background flex justify-center">
+        <div className="gradient-background flex justify-center" style={{
+            height: '100%',
+        }}>
 
            <div className='py-12 px-8'>
                 <p className='p'>Mulheres de Alta Performance</p>
@@ -29,7 +31,9 @@ const Section1Mobile = () => {
                         <br/>e a tua conexão com Deus. 
                     </p>
                     <img src='./01/bg-nivia.png' alt='Image 01' width={390} height={521} />
+                    <a href='https://api.whatsapp.com/send/?phone=351914705127&text&type=phone_number&app_absent=0'>
                     <Button variant={'ProjectButton'} size={'ProjectButtonMobile'}>Garantir a minha vaga</Button>
+                    </a>
                 </div>
 
                 
