@@ -31,19 +31,23 @@ export default function Home() {
     <>
       {isMobile ? (
         <>
+        <div className='overflow-hidden'> 
           <Section1Mobile />
           <Section2Mobile />
           <Section3Mobile />
           <Section4Mobile />
           <Section5Mobile />
+          </div>
         </>
       ) : (
         <>
+        <div>
           <Section1 />
           <Section2 />
           <Section3 />
           <Section4 />
           <Section5 />
+          </div>
         </>
       )}
     </>
