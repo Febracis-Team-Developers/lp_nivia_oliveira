@@ -13,7 +13,7 @@ const Section1Mobile = () => {
 
                 <div className='py-6'>
                     <h1 className='h1'>
-                            Reconecta-te com o teu
+                            Reconecta-te com o teus
                             <br/>feminino e eleva a tua
                             <br/>performance sistémica
                             <br/>em 4 meses!
