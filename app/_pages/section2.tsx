@@ -7,9 +7,9 @@ const Section2 = () => {
             backgroundColor: '#D9D9D9', // Fallback color to see if the style is applied
             backgroundSize: 'cover',
         }}>
-            <div className="h1 flex flex-col items-center py-32 z-10">
-                <h1 className='z-10 text-4xl '>Como seria a tua vida se...</h1>
+            <div className="h1 flex justify-center py-24 z-10">
                 <div className='flex flex-col items-center py-12 z-10 font-medium'>
+                <h1 className='h1 py-12 z-10 text-4xl '>Como seria a tua vida se...</h1>
                     <p className="p2 text-2xl">Tivesses tempo para cuidar de ti e</p>
                     <p className="p2 text-2xl">praticar atividade física regularmente?</p>
                     
@@ -24,6 +24,17 @@ const Section2 = () => {
 
                     <br/><p className="p2 text-2xl">Te reconectasses com Deus e</p>
                     <p className="p2 text-2xl">descobrisses a tua melhor versão?</p>
+                </div>
+
+                <div className='py-16 px-32'>
+                    <video 
+                            width="300" 
+                            height="385"  
+                            src="./videos/video1nivia.mp4" 
+                            title="YouTube video player"  
+                            controls
+                            >
+                        </video>
                 </div>
             </div>
         </div>
