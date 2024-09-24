@@ -7,51 +7,47 @@ const Section3 = () => {
 
             <div className="flex justify-center video-container">
                 <div>
-                    <iframe 
+                    <video 
                         width="216" 
                         height="385"  
                         src="./videos/video1nivia.mp4" 
-                        title="YouTube video player" 
-                        frameBorder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowFullScreen>
-                    </iframe>
+                        title="YouTube video player"  
+                        controls
+                        >
+                    </video>
                 </div>
 
                 <div>
-                    <iframe 
+                    <video 
                         width="216" 
                         height="385"  
                         src="./videos/video2nivia.mp4" 
-                        title="YouTube video player" 
-                        frameBorder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowFullScreen>
-                    </iframe>
+                        title="YouTube video player"  
+                        controls
+                        >
+                    </video>
                 </div>
 
                 <div>
-                    <iframe 
+                    <video 
                         width="216" 
                         height="385"  
                         src="./videos/video3nivia.mp4" 
-                        title="YouTube video player" 
-                        frameBorder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowFullScreen>
-                    </iframe>
+                        title="YouTube video player"  
+                        controls
+                        >
+                    </video>
                 </div>
 
                 <div>
-                    <iframe 
+                    <video 
                         width="216" 
                         height="385"  
                         src="./videos/video4nivia.mp4" 
-                        title="YouTube video player" 
-                        frameBorder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowFullScreen>
-                    </iframe>
+                        title="YouTube video player"  
+                        controls
+                        >
+                    </video>
                 </div>
                 
             </div>
