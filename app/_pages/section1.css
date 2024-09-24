@@ -44,8 +44,19 @@
 
 .pS1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
-    line-height: 34.13px;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 64px;
+    font: bold;
+    color: black;
+}
+
+.pSS1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.88px;
+    font: bold;
     color: black;
 }
 
@@ -60,6 +71,22 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     line-height: 34.13px;
+    color: black;
+}
+
+.p1S1S {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 800;
+    color: #5C2E06;
+}
+
+.p1S1SUnderButton {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 200;
     color: black;
 }
 
