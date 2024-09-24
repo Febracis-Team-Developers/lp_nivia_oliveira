@@ -22,6 +22,7 @@ const MyForm = () => {
         console.log(email);
         console.log(telefone);
         SendToDatabase(email, telefone);
+        window.location.href = 'https://api.whatsapp.com/send/?phone=351914705127&text&type=phone_number&app_absent=0'; // Redireciona para o Google
     };
 
     return ( 
