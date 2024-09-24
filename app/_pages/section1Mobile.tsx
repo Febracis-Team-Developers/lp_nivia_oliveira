@@ -1,6 +1,6 @@
 import './sectionMobile.css';
-import { Button } from "@/components/ui/button"
 import React from 'react';
+import PasswordInput from './forms';
 
 const Section1Mobile = () => {
     return ( 
@@ -31,9 +31,8 @@ const Section1Mobile = () => {
                         <br/>e a tua conexão com Deus. 
                     </p>
                     <img src='./01/bg-nivia.png' alt='Image 01' width={390} height={521} />
-                    <a href='https://api.whatsapp.com/send/?phone=351914705127&text&type=phone_number&app_absent=0'>
-                    <Button variant={'ProjectButton'} size={'ProjectButtonMobile'}>Garantir a minha vaga</Button>
-                    </a>
+                    <PasswordInput />
+                    <h1 className='p1S1SUnderButton py-4 text-center'>Preencha o <span className='font-bold'>formulário acima e clique no botão marrom</span></h1>
                 </div>
 
                 
