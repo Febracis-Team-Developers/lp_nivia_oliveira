@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import PasswordInput from './forms';
 
 const Section5 = () => {
     return ( 
@@ -13,9 +13,15 @@ const Section5 = () => {
                     <p className="p4">Inscreve-te agora e garante o teu lugar na</p>
                     <p className="h1">Mentoria MAP - Mulheres de Alta Performance!</p>
                 </div>
-                <a href='https://api.whatsapp.com/send/?phone=351914705127&text&type=phone_number&app_absent=0'>
-                    <Button variant={'ProjectButton'} size={'ProjectButton'}>Garantir a minha vaga</Button>
-                </a>
+                <div>
+                    <h1 className='p1S1S'>Se cadastra abaixo e garante teu lugar:</h1>
+                </div>
+                <div className="w-[500px]">
+                    <PasswordInput />
+                </div>
+                <div>
+                    <h1 className='p1S1SUnderButton py-4'>Preencha o <span className='font-bold'>formulário acima e clique no botão marrom</span></h1>
+                </div>
             </div>
         </div>
      );

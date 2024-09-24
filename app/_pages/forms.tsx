@@ -32,6 +32,7 @@ const MyForm = () => {
                         type="email" 
                         id="email" 
                         value={email} 
+                        placeholder='Email'
                         onChange={handleEmailChange} 
                         className="w-full p-2 border border-gray-300 rounded text-black"
                     />
@@ -41,6 +42,7 @@ const MyForm = () => {
                         type="tel" 
                         id="telefone" 
                         value={telefone} 
+                        placeholder='Whatsapp'
                         onChange={handleTelefoneChange} 
                         className="w-full p-2 border border-gray-300 rounded text-black"
                     />
