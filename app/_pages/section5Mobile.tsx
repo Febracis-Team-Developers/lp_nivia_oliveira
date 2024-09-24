@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import PasswordInput from './forms';
 
 const Section5Mobile = () => {
